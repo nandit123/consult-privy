@@ -10,6 +10,7 @@ import androidx.navigation.ui.setupWithNavController
 
 import android.content.Context
 import android.view.View
+import android.widget.Toast
 import androidx.viewbinding.ViewBinding
 //import cash.z.ecc.android.lockbox.LockBox
 //import cash.z.ecc.kotlin.mnemonic.Mnemonics
@@ -40,6 +41,12 @@ class MainActivity : AppCompatActivity() {
     private fun onFabClicked(view: View) {
         fabListener?.onActionButtonClicked()
     }
+    fun toastMessage(view: View)
+    {
+        var toast = Toast.makeText(this, "Transaction Sent", Toast.LENGTH_LONG)
+        toast.show()
+    }
+
 }
 
 fun createAccount() {
