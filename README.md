@@ -8,9 +8,6 @@ Our app aims to use shielded transactions and using memos as a way to chat about
 - Android OS
 - Android-Studio
 ## Images
-Image 1
 ![alt text](https://github.com/nandit123/consult-privy/blob/master/images/account_page.jpg?raw=true)
-Image 2
 ![alt text](https://github.com/nandit123/consult-privy/blob/master/images/consult_professional.jpg?raw=true)
-Image 3
 ![alt text](https://github.com/nandit123/consult-privy/blob/master/images/responses_page.jpg?raw=true)
